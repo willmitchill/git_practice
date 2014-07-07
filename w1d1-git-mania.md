@@ -1,14 +1,14 @@
 ## Introduction
 
-Form pairs of two (required!) and collaborate using your own laptops/machines. Use the git-mania repository referenced below. 
+Form pairs of two (required!) and collaborate using your own laptops/machines. Use the git-mania repository referenced below.
 
-Note: The setup instructions below are sometimes intentionally vague. You may have to ask google or your peers questions like "how do I fork a repo?". Remember to always research first prior to asking for clarification/help. 
+Note: The setup instructions below are sometimes intentionally vague. You may have to ask google or your peers questions like "how do I fork a repo?". Remember to always research first prior to asking for clarification/help.
 
 Repository: <https://github.com/lighthouse-labs/git-mania>
 
 One of you will be Developer A, and the other Developer B.
 
-## Setup 
+## Setup
 
 1. Developer A: fork LHL repo git-mania
 
@@ -20,10 +20,10 @@ One of you will be Developer A, and the other Developer B.
 
 ### Points to raise and understand at this stage:
 
-* What does it mean to fork a repository? 
-* Is forking a git thing or a github thing? 
+* What does it mean to fork a repository?
+* Is forking a git thing or a github thing?
 * In fact, what is the difference between git and github?
-* What does it mean to clone a repository? How is it different to forking? 
+* What does it mean to clone a repository? How is it different to forking?
 * Is cloning a git thing or a github thing?
 * Why does Developer A have to give Developer B access to their repo? Especially since the repo is already public.
 * What is the difference between a public and private repo on github?
@@ -35,7 +35,7 @@ Add a city to the _end_ of the Ordered List of cities
 
 2. Developer A: commit
 
-3. Developer A: push the commit 
+3. Developer A: push the commit
 
 4. Developer B: add content to another part of the HTML  
 Add a city to the _beginning_ of the Ordered List of cities
@@ -48,7 +48,7 @@ Because Git notices that the remote also has a changed version of the HTML file.
 The developer now needs to pull the remote changes and merge them to the local changes (as a merge commit).  
 
 7. Developer B pulls changes  
-Since there were new commits on the remote (origin), Git downloads it. 
+Since there were new commits on the remote (origin), Git downloads it.
 The content change made by Developer A is now downloaded and available to B.
 Since the change was to a different part of the file, git has no trouble merging it automatically
 
