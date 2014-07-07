@@ -1,3 +1,4 @@
+
 class Catz
 
   # fsdfsdfasdf
@@ -7,6 +8,10 @@ class Catz
 
 
 
-  
+
+
+end
+
+def fun
 
 end
